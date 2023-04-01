@@ -1,0 +1,17 @@
+/* --- --- */
+
+:root {
+  color: #f0bf5f;
+  color: #f1f1f1;
+  color: #fff;
+  color: #cc9933;
+  color: #808080;
+  color: #a9a9a9;
+  color: #222;
+}
+
+.container {
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+}
