@@ -1,0 +1,31 @@
+
+.accommodation { margin-bottom: 4rem; }
+
+.accommodation__title { margin-left: 3rem; }
+
+.accommodation-wrap {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.accommodation-card {
+  width: 100%;
+  max-width: 370px;
+  margin-bottom: 2rem;
+}
+
+.accommodation-card__body {
+  padding: 2rem;
+  background-color: var(--white);
+  margin-top: -4px;
+  border-radius: 0 0 10px 10px;
+}
+
+
+
+
+
+
+
+

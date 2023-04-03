@@ -29,8 +29,6 @@
 .header__personal-room:hover { color: var(--hover); }
 
 
-.header__personal-room:hover::before { display: inline; }
-
 .nav { 
   display: flex;
   justify-content: space-between;

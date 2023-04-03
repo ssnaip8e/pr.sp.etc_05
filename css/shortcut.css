@@ -24,7 +24,7 @@
   margin-bottom: 1rem;
   padding-left: 1rem;
   padding-right: .5rem;
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: var(--hover);
 }
 
@@ -89,6 +89,8 @@
   font-weight: 400;
   color: var(--accent);
 }
+
+.special__detail:hover { color: var(--hover); }
 
 .elit,
 .work,
