@@ -1,0 +1,93 @@
+
+.top-wrap {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.header__phone {
+  margin-left: 1.5rem;
+  color: var(--accent-2);
+}
+
+.header__personal-room {
+  margin-left: auto;
+  font-size: 1.2rem;
+  color: var(--accent);
+}
+
+.header__phone,
+.header__personal-room { 
+  font-weight: 600; 
+  transition: .1s;
+}
+
+.header__phone:hover,
+.header__personal-room:hover { color: var(--hover); }
+
+.header__personal-room::before {
+  content: " > ";
+  display: none;
+  margin-right: .25rem;
+}
+
+.header__personal-room:hover::before { display: inline; }
+
+.nav { 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--white);
+  border-radius: 10px;
+}
+
+.nav-list {
+  display: flex;
+  gap: 2.5rem;
+}
+
+.nav-list__link {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: var(--text);
+  transition: .1s;
+}
+
+.nav-list__link:hover { color: var(--hover); }
+
+.header-form {
+  position: relative;
+  width: 300px;
+  margin-right: 1.5rem;
+  line-height: 40px;
+  border-radius: 10px;
+  background-color: var(--bg);
+  padding-left: 1rem;
+}
+
+.header-form__search,
+.header-form__button {
+  outline: 0;
+  border: 0;
+  background-color: transparent;
+}
+
+.header-form__search {
+  width: 85%;
+  height: 20px;
+}
+
+.header-form__button {
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+}
+
+.header-form__button::before {
+  content: url('./../assets/img/search.png');
+}
+
+

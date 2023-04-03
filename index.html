@@ -18,11 +18,14 @@
 
     <!-- Шапка сайта -->
     <header class="header">
-      <a class="header__logо" href="#">
-        <img class="logо__img" src="#" alt="Lagoona - сеть отелей">
-      </a>
-      <a class="header__phone" href="#">+7&nbsp;495&nbsp;322&nbsp;54&nbsp;48</a>
-      <a class="header__personal-room" href="#">Личный кабинет</a>
+      <!-- Обёртка для верхний ссылок -->
+      <div class="top-wrap">
+        <a class="header__logо" href="#">
+          <img class="logо__img" src="./assets/img/logo.png" alt="Lagoona - сеть отелей">
+        </a>
+        <a class="header__phone" href="#">+7&nbsp;495&nbsp;322&nbsp;54&nbsp;48</a>
+        <a class="header__personal-room" href="#">Личный кабинет</a>
+      </div>
       <!-- Навигация -->
       <nav class="nav">
         <ul class="nav-list">
@@ -47,8 +50,8 @@
         </ul>
         <!-- Форма поиска -->
         <form class="header-form" action="#" method="get">
-          <input class="header-form__search" type="search" placeholder="Поиск">
-          <button class="header-form__submit" type="submit"></button>
+            <input class="header-form__search" type="search" placeholder="Поиск">
+            <button class="header-form__button"></button>
         </form>
       </nav>
     </header>
@@ -76,17 +79,17 @@
         <h2 class="section__title">Спецпредложение</h2>
         <!-- Блоки с спецпредложениями -->
         <div class="special-offer-wrap">
-          <div class="special">
+          <div class="special elit">
             <h4 class="special__title">Номера категории люкс</h4>
             <p class="special__cost">от&nbsp;5000&nbsp;р</p>
             <a class="special__detail" href="#">Подробнее</a>
           </div>
-          <div class="special">
+          <div class="special work">
             <h4 class="special__title">Для тех кто занят</h4>
             <p class="special__cost">от&nbsp;4000&nbsp;р</p>
             <a class="special__detail" href="#">Подробнее</a>
           </div>
-          <div class="special">
+          <div class="special family">
             <h4 class="special__title">Выходные для всей семьи</h4>
             <p class="special__cost">от&nbsp;8000&nbsp;р</p>
             <a class="special__detail" href="#">Подробнее</a>
@@ -111,7 +114,9 @@
       <div class="service-wrap">
         <!-- Карточка услуг -->
         <div class="service-card">
-          <div class="service-card__img"></div>
+          <div class="service-card__img">
+            <img class="img" src="./assets/img/drink.png" alt="">
+          </div>
           <div class="service-card__body">
             <a class="service-card__link" href="#">Эксклюзивное обслуживание</a>
             <p class="service-card__text">Равным образом постоянный количественный рост и сфера нашей активности.</p>
@@ -119,21 +124,27 @@
         </div>
         <!-- end Карточка услуг -->
         <div class="service-card">
-          <div class="service-card__img"></div>
+          <div class="service-card__img">
+            <img class="img" src="./assets/img/foot.png" alt="">
+          </div>
           <div class="service-card__body">
             <a class="service-card__link" href="#">Аренда банкетных залов</a>
             <p class="service-card__text">Значимость этих проблем настолька очевидна, что дальнейшее развитие различных форм.</p>
           </div>
         </div>
         <div class="service-card">
-          <div class="service-card__img"></div>
+          <div class="service-card__img">
+            <img class="img" src="./assets/img/pool.png" alt="">
+          </div>
           <div class="service-card__body">
             <a class="service-card__link" href="#">Сайеы, бассейны, бани, фитнес-залы</a>
             <p class="service-card__text">Не следует, однако забывать, что начало повседневной работы по формированию позиции.</p>
           </div>
         </div>
         <div class="service-card">
-          <div class="service-card__img"></div>
+          <div class="service-card__img">
+            <img class="img" src="./assets/img/auto.png" alt="">
+          </div>
           <div class="service-card__body">
             <a class="service-card__link" href="#">Охраняемые автомобильные стоянки</a>
             <p class="service-card__text">Не следует, однако забывать, что начало повседневной работы по формированию позиции.</p>
@@ -150,36 +161,36 @@
       <div class="advantage-wrap">
         <!-- Карточка преимуществ -->
         <div class="advantage-card">
-          <img class="advantage-card__img" src="#" alt="advantage-card__img">
+          <img class="advantage-card__img" src="./assets/img/bathtub.png" alt="advantage-card__img">
           <p class="advantage-card__text">Идейные соображения высшего порядка, а также постоянный количественный рост.</p>
         </div>
         <!-- end Карточка преимуществ -->
         <div class="advantage-card">
-          <img class="advantage-card__img" src="#" alt="advantage-card__img">
+          <img class="advantage-card__img" src="./assets/img/hanger.png" alt="advantage-card__img">
           <p class="advantage-card__text">Значимость этих проблем настолько очевидна, что вопрос остается открытым.</p>
         </div>
         <div class="advantage-card">
-          <img class="advantage-card__img" src="#" alt="advantage-card__img">
+          <img class="advantage-card__img" src="./assets/img/heating.png" alt="advantage-card__img">
           <p class="advantage-card__text">Таким образом реализация плановых заданий играет важную роль для понимания.</p>
         </div>
         <div class="advantage-card">
-          <img class="advantage-card__img" src="#" alt="advantage-card__img">
+          <img class="advantage-card__img" src="./assets/img/hotel-key.png" alt="advantage-card__img">
           <p class="advantage-card__text">Повседневная практика показывает, что сложившаяся структура организации.</p>
         </div>
         <div class="advantage-card">
-          <img class="advantage-card__img" src="#" alt="advantage-card__img">
+          <img class="advantage-card__img" src="./assets/img/parking.png" alt="advantage-card__img">
           <p class="advantage-card__text">Равным образом рамки и место обучения кадров способствует подготовки сотрудника.</p>
         </div>
         <div class="advantage-card">
-          <img class="advantage-card__img" src="#" alt="advantage-card__img">
+          <img class="advantage-card__img" src="./assets/img/reception.png" alt="advantage-card__img">
           <p class="advantage-card__text">Консультация с активом влечет за собой процесс внедрения услуг нашего сервиса.</p>
         </div>
         <div class="advantage-card">
-          <img class="advantage-card__img" src="#" alt="advantage-card__img">
+          <img class="advantage-card__img" src="./assets/img/security-box.png" alt="advantage-card__img">
           <p class="advantage-card__text">Повседневная практика показывает, что дальнейшее развитие различных форм.</p>
         </div>
         <div class="advantage-card">
-          <img class="advantage-card__img" src="#" alt="advantage-card__img">
+          <img class="advantage-card__img" src="./assets/img/swimming-pool.png" alt="advantage-card__img">
           <p class="advantage-card__text">Значимость этих проблем настолько очевидна, что консультация наших экспертов помогает.</p>
         </div>
       </div>
@@ -193,7 +204,9 @@
       <div class="accommodation-wrap">
         <!-- Карточка размещения -->
         <div class="accommodation-card">
-          <div class="accommodation-card__img"></div>
+          <div class="accommodation-card__img">
+            <img class="img" src="./assets/img/espanola.png" alt="">
+          </div>
           <div class="accommodation-card__body">
             <p class="accommodation-card__cost">4690 р</p>
             <div class="stars">
@@ -210,7 +223,9 @@
         </div>
         <!-- end Карточка размещения -->
         <div class="accommodation-card">
-          <div class="accommodation-card__img"></div>
+          <div class="accommodation-card__img">
+            <img class="img" src="./assets/img/son-tipicas.png" alt="">
+          </div>
           <div class="accommodation-card__body">
             <p class="accommodation-card__cost">5148 р</p>
             <div class="stars">
@@ -225,7 +240,9 @@
             <a class="accommodation-card__button" href="#">Номера</a>
           </div>
           <div class="accommodation-card">
-            <div class="accommodation-card__img"></div>
+            <div class="accommodation-card__img">
+              <img class="img" src="./assets/img/de-la-querra.png" alt="">
+            </div>
             <div class="accommodation-card__body">
               <p class="accommodation-card__cost">6254 р</p>
               <div class="stars">
@@ -241,7 +258,9 @@
             </div>
         </div>
         <div class="accommodation-card">
-          <div class="accommodation-card__img"></div>
+          <div class="accommodation-card__img">
+            <img class="img" src="./assets/img/mebtira-piadosa.png" alt="">
+          </div>
           <div class="accommodation-card__body">
             <p class="accommodation-card__cost">6320 р</p>
             <div class="stars">
@@ -257,7 +276,9 @@
           </div>
         </div>
         <div class="accommodation-card">
-          <div class="accommodation-card__img"></div>
+          <div class="accommodation-card__img">
+            <img class="img" src="./assets/img/la-creatividad.png" alt="">
+          </div>
           <div class="accommodation-card__body">
             <p class="accommodation-card__cost">6457 р</p>
             <div class="stars">
@@ -273,7 +294,9 @@
           </div>
         </div>
         <div class="accommodation-card">
-          <div class="accommodation-card__img"></div>
+          <div class="accommodation-card__img">
+            <img class="img" src="./assets/img/el-retorno.png" alt="">
+          </div>
           <div class="accommodation-card__body">
             <p class="accommodation-card__cost">6490 р</p>
             <div class="stars">
@@ -289,7 +312,9 @@
           </div>
         </div>
         <div class="accommodation-card">
-          <div class="accommodation-card__img"></div>
+          <div class="accommodation-card__img">
+            <img class="img" src="./assets/img/enfermo-termino.png" alt="">
+          </div>
           <div class="accommodation-card__body">
             <p class="accommodation-card__cost">6505 р</p>
             <div class="stars">
@@ -305,7 +330,9 @@
           </div>
         </div>
         <div class="accommodation-card">
-          <div class="accommodation-card__img"></div>
+          <div class="accommodation-card__img">
+            <img class="img" src="./assets/img/siguio-sempre.png" alt="">
+          </div>
           <div class="accommodation-card__body">
             <p class="accommodation-card__cost">6824 р</p>
             <div class="stars">
@@ -321,7 +348,9 @@
           </div>
         </div>
         <div class="accommodation-card">
-          <div class="accommodation-card__img"></div>
+          <div class="accommodation-card__img">
+            <img class="img" src="./assets/img/more.png" alt="">
+          </div>
           <a class="accommodation-more" href="#">Посмотреть все варианты</a>
           </div>
         </div>
