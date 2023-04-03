@@ -1,4 +1,6 @@
 
+.header { margin-bottom: 4rem; }
+
 .top-wrap {
   display: flex;
   align-items: center;
@@ -22,14 +24,10 @@
   transition: .1s;
 }
 
-.header__phone:hover,
+.header__phone:hover { color: var(--hover-2); }
+
 .header__personal-room:hover { color: var(--hover); }
 
-.header__personal-room::before {
-  content: " > ";
-  display: none;
-  margin-right: .25rem;
-}
 
 .header__personal-room:hover::before { display: inline; }
 
@@ -70,6 +68,7 @@
   outline: 0;
   border: 0;
   background-color: transparent;
+  color: var(--hover);
 }
 
 .header-form__search {
@@ -81,13 +80,9 @@
   height: 40px;
   width: 40px;
   position: absolute;
-  top: 0;
+  top: 2px;
   right: 0;
   cursor: pointer;
 }
 
-.header-form__button::before {
-  content: url('./../assets/img/search.png');
-}
-
-
+.header-form__button::before { content: url('./../assets/img/search.png'); }

@@ -1,0 +1,100 @@
+
+.shortcut { 
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5rem;
+}
+
+.section__title {
+  padding-left: 3rem;
+}
+
+.reservation { 
+  width: 100%;
+  max-width: 520px; 
+}
+
+.section__input {
+  display: block;
+  border: 0;
+  outline: 0;
+  width: 100%;
+  border-radius: 10px;
+  height: 65px;
+  margin-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: .5rem;
+  font-size: 1.2rem;
+  color: var(--hover);
+}
+
+.section__button {
+  display: inline-block;
+  width: 160px;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.2rem;
+  line-height: 65px;
+  background-color: var(--accent);
+  color: var(--white);
+  margin-right: 2rem;
+}
+
+.section__button:hover { background-color: var(--hover); }
+
+.section__sub-info {
+  color: var(--accent-2);
+  font-weight: 500;
+}
+
+.section__sub-info::before {
+  content: "9756";
+  color: var(--accent);
+  margin-right: .5rem;
+}
+
+.special-offer { 
+  width: 100%;
+  max-width: 600px; 
+}
+
+.special {
+  max-height: 520px;
+  padding: 1.5rem;
+  border-radius: 10px;
+}
+
+.special__title { 
+  font-size: 4rem;
+  font-weight: 600;
+  margin: 0;
+  width: 70%;
+  margin-bottom: 1rem;
+  padding-top: 11rem;
+  color: var(--white);
+}
+
+.special__cost {
+  display: inline;
+  margin-right: 1rem;
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: var(--hover-2);
+}
+
+.special__detail {
+  display: inline;
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: var(--accent);
+}
+
+.elit,
+.work,
+.family { 
+  background-image: url('./../assets/img/elite.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
