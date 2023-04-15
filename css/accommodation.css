@@ -13,6 +13,7 @@
   width: 100%;
   max-width: 370px;
   margin-bottom: 2rem;
+  position: relative;
 }
 
 .accommodation-card__body {
@@ -20,12 +21,74 @@
   background-color: var(--white);
   margin-top: -4px;
   border-radius: 0 0 10px 10px;
+  position: relative;
 }
 
+.accommodation-card__cost::before {
+  content: "от";
+  color: var(--accent-2);
+  margin-right: 4px;
+  font-weight: 400;
+}
 
+.accommodation-card__cost::after {
+  content: "/ ночь";
+  color: var(--accent-2);
+  margin-left: 4px;
+  font-weight: 400;
+}
 
+.accommodation-card__cost {
+  font-weight: 600;
+}
 
+.star { width: 10px; }
 
+.stars {
+  position: absolute;
+  right: 40px;
+  top: 50px;
+}
 
+.accommodation-card__text-esp { font-weight: 500; }
 
+.accommodation-card__text-rus {
+  font-weight: 400;
+  color: var(--accent-2);
+}
 
+.accommodation-card__button {
+  display: inline-block;
+  padding: .8rem 1.2rem;
+  border: 2px solid var(--accent);
+  border-radius: 10px;
+  color: var(--accent);
+  font-weight: 600;
+  transition: .2s;
+}
+
+.accommodation-card__button:hover {
+  color: var(--white);
+  background-color: var(--accent);
+}
+
+.accommodation-more {
+  color: var(--white);
+  font-weight: 600;
+  font-size: 1.2rem;
+  position: absolute;
+  bottom: 40px;
+  left: 20px;
+  transition: .2s;
+}
+
+.accommodation-more::after {
+  content: "\203A";
+  display: inline-block;
+  font-size: 2.2rem;
+  font-weight: 600;
+  margin-left: .5rem;
+  opacity: 1;
+}
+
+.accommodation-more:hover { color: var(--hover); }

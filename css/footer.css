@@ -1,0 +1,32 @@
+
+.footer {
+  background-color: var(--text);
+  background-image: url("./../assets/img/soleil.png");
+  background-repeat: no-repeat;
+  background-position: 80% 100%;
+  border-radius: 10px;
+  height: 340px;
+  padding: 2rem;
+  margin-top: 2rem;
+  color: var(--white);
+  font-weight: 500;
+  line-height: 1.6;
+}
+
+.footer-wrap {
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.copy { width: 300px; }
+
+.address { width: 520px; }
+
+.social { width: 45px; }
+
+.address__link,
+.copy__link { color: var(--accent); }
+
+.address__link:hover,
+.copy__link:hover { color: var(--hover); }
