@@ -1,4 +1,6 @@
-# project.site.lagoona-hotels
+# project.single-page.others(05)
+
+
 ## Сайт-лэндинг "Lagoona" - сеть отелей
 
 Состав:
