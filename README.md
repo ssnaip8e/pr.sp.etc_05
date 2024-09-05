@@ -1,5 +1,4 @@
-# project.single-page.others(05)
-
+> project.single-page.others(05)
 
 ## Сайт-лэндинг "Lagoona" - сеть отелей
 
